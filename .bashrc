@@ -112,5 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 alias dotfind="tree -a -I '.dotfiles|.local|.ssh|.sudo_*|.bash_history|hosts.yml|.cache|.vs*|.npm|.dotnet'"

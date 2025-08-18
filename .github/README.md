@@ -5,15 +5,15 @@
 Add the following to your interactive startup script (`.bashrc`, `.zshtc` etc.):
 
 ```sh 
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
 ```
 
 Then clone the repository:
 
 ```sh
 $ git clone --bare https://github.com/ViktorPopp/dotfiles.git $HOME/.dotfiles
-$ dotfiles config --local status.showUntrackedFiles no
-$ dotfiles checkout
+$ dot config --local status.showUntrackedFiles no
+$ dot checkout
 ```
 
 If you already have some of the dotfiles present, you will see this error:
