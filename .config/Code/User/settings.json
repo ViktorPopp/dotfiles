@@ -1,0 +1,52 @@
+{
+  /* --- Appearance --- */
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'JetBrainsMonoNL Nerd Font', 'monospace', monospace",
+
+  /* --- Behavior --- */
+  "editor.formatOnSave": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "editor.minimap.size": "fill",
+
+  /* --- Languages --- */
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "[makefile]": {
+    "editor.insertSpaces": false,
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4
+  },
+
+  /* --- Tooling --- */
+  "clangd.path": "/home/viktor/.config/Code/User/globalStorage/llvm-vs-code-extensions.vscode-clangd/install/21.1.0/clangd_21.1.0/bin/clangd",
+
+  /* --- Source Control --- */
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "python.createEnvironment.trigger": "off",
+  "files.associations": {
+    "Doxyfile": "properties",
+    "Kconfig": "plaintext"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+
+  /* --- Others --- */
+  "chat.disableAIFeatures": true,
+  "files.readonlyInclude": {
+    "**/.cargo/registry/src/**/*.rs": true,
+    "**/.cargo/git/checkouts/**/*.rs": true,
+    "**/lib/rustlib/src/rust/library/**/*.rs": true
+  }
+}
